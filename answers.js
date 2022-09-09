@@ -34,3 +34,11 @@ dart.push('Hawkins')
 wolfy.shift()
 wolfy.unshift('Gameboy')
 console.log(wolfy)
+
+//Yell at the Ninja Turtles
+const turtles = ['Donatello','Leonardo','Raphael','Michelangelo']
+
+for (obj of turtles){
+   obj = obj.toUpperCase()
+    console.log(obj)
+}
