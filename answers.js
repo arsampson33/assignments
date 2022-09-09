@@ -66,4 +66,16 @@ whereIsWaldo.splice(1,1)
 whereIsWaldo[1][2] = 'No One'
 console.log(whereIsWaldo[2][1][1]);
 
+//Exited Kitten
+
+for(let i = 0; i <= 20; i++){
+    const strings = ["...human...why you taking pictures of me?...","...the catnip made me do it...","...why does the red dot always get away..."]
+    let talk = 0
+    talk = Math.floor(Math.random()*3)
+    if (i % 2 === 0){
+        console.log(strings[talk])
+    } else {
+        console.log('Love me, pet me! HSSSSSSS!')
+    }
+}
 
