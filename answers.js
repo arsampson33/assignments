@@ -42,3 +42,18 @@ for (obj of turtles){
    obj = obj.toUpperCase()
     console.log(obj)
 }
+
+//Methods, Revisted
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+
+console.log(favMovies.indexOf('Titanic'))
+favMovies.sort()
+favMovies.pop()
+favMovies.push('Guardians of the Galaxy')
+favMovies.shift()
+favMovies.unshift('Pacifer')
+favMovies.splice(4,0,'Avatar')
+const slice = favMovies.slice(favMovies.length/2)
+console.log(slice)
+console.log(favMovies);
+console.log(favMovies.indexOf('Fast and Furious'));
