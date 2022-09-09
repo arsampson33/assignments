@@ -57,3 +57,13 @@ const slice = favMovies.slice(favMovies.length/2)
 console.log(slice)
 console.log(favMovies);
 console.log(favMovies.indexOf('Fast and Furious'));
+//Wheres Waldo
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                    ["Lucinda", "Jacc", "Neff", "Snoop"],
+                    ["Petunia", ["Baked Goods", "Waldo"]]];
+
+whereIsWaldo.splice(1,1)
+whereIsWaldo[1][2] = 'No One'
+console.log(whereIsWaldo[2][1][1]);
+
+
